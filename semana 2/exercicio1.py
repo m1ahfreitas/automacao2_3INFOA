@@ -4,3 +4,9 @@ Exercício 1:
  inteiros do teclado e após imprime 
  o maior números dentre eles.
 '''
+n1 = int (input("Digite um número: "))
+n2 = int (input("Digite um número: "))
+if n1>n2:
+    print (n1, "é o maior")
+else: 
+    print(n2, "é o maior")   

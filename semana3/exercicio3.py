@@ -7,3 +7,10 @@ quando a matricula 0 for digitada.
 Ao final deve apresentar os números de 
 matriculas separados em 3 grupos.
 '''
+matriculas = []
+while True:
+    matricula = int(input("Digite o número da matrícula: "))
+    matriculas.append(matricula) 
+    if matricula == 0:
+        print(matriculas)
+        break        
