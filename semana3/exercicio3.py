@@ -39,26 +39,23 @@ grupo3 = []
 while True:
       matricula = int(input('Digite a matricula:'))
 
-      
-      
       if contador == 1:
             grupo1.append(matricula)
 
-      if contador == 2:
+      elif contador == 2:
             grupo2.append(matricula)  
 
-      if contador == 3:
+      elif contador == 3:
             grupo3.append(matricula)  
-
+            contador = 1
       contador = contador + 1
 
       if matricula == 0:
             break
 
-print ('grupo 1:', grupo1)
-print ('grupo 2:', grupo2)
-print ('grupo 3:', grupo3)
-
+print ("grupo 1:", grupo1)
+print ("grupo 2:", grupo2)
+print ("grupo 3:", grupo3)
 
 
 
